@@ -1,0 +1,339 @@
+#menu ul{
+    margin: 0px;
+}
+
+section.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.img{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 20%;
+}
+ ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: gold;
+    justify-content: center;
+} 
+a{
+    text-decoration: none;
+    color: black;
+}
+li.toggle-menu{
+    display:none;
+}
+li{
+    margin: 15px;
+    text-transform: uppercase;
+}
+div.bottom input{
+    border-radius: 5px;
+}
+div.bottom button{
+    color: white;
+    background-color:rgb(81, 196, 81);
+}
+section.foto{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url(../imagem/familia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+div.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    margin-left: 100px;
+    background-color:rgba(5, 5, 5,0.5);
+}
+div.text a{
+    margin-left: -192px;
+    text-decoration: none;
+    color:yellow;
+    font-size: 15px;
+}
+div.text p{
+    color: white;
+    font-size: 28px;
+    font-family: bolder;
+}
+div.text button{
+    background-color: rgba(5, 5, 5, 0.5);
+    color:yellow;
+    border:1px solid yellow;
+    margin-left: -192px;
+}
+section.novidade{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+div.saiba{
+    margin: 50px;
+    width: 20%;
+    height: 350px;
+    background-color:whitesmoke;
+}
+div.saiba img{
+    width: 267px;
+    height: 150px;
+}
+div.saiba h1{
+    margin-top: -5px;
+    background-color: yellow;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+section.denuncie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+section.denuncie h1{
+    text-transform: uppercase;
+    font-family: bolder;
+    font-size: 30px;
+}
+div.nov{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid black;
+}
+div.lorem{
+    display: flex;
+    flex-direction: column;
+}
+div.nov img{
+    width: 80px;
+    height: 80px;
+}
+div.txt-lorem{
+    display: flex;
+    flex-direction: column;
+}
+div.denuncie{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 350px;
+    background-image: url(../imagem/image-7.jpg);
+    filter:brightness(35%);
+    background-size: 100% 100%;
+    margin-left: 60px;
+}
+div.denuncie h1{
+    color:yellow;
+    font-size: 50px;
+}
+div.denuncie button{
+    font-size: 20px;
+    color:yellow;
+    background-color: rgba(5, 5, 5, 0.1);
+    border: 1px solid yellow;
+}
+section.agenda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:250px; 
+    background-image: url(../imagem/image-8.jpg);
+    filter:brightness(35%);
+    background-size: cover;
+    background-position: center;
+    margin:25px;
+    background-color: black;
+    z-index: 1;
+}
+div.calendario{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+div.calendario h1{
+    font-size: 30px;
+    color:yellow;
+}
+div.calendario h2{
+    background-color: yellow;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    width: 15%;
+}
+div.calendario p{
+color:white;
+}
+div.todos h1{
+    color:yellow;
+    background-color: rgba(5, 5, 5, 0.1);
+    margin-bottom: 90px;
+}
+div.todos h2{
+    font-family: Amatic SC;
+}
+div.todos button{
+    color:yellow;
+    background-color: rgba(5, 5, 5, 0.1);
+    font-size:30px;
+    border: 1px solid yellow;
+}
+section.fotos{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+div.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.galeria h1{
+font-size: 30px;
+}
+div.gls{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+div.gl{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+div.gl img{
+    width:250px;
+    height: 210px;
+}
+div.patrocinio{
+    width:520px;
+    height: 250px;
+    background-color: rgba(210, 210, 230, 0.5);
+    margin: 10px;
+}
+div.patrocinio h3{
+font-size:60px;
+margin: 18px 0 ;
+}
+div.patrocinio img{
+    width: 150px;
+    height: 100px;
+    margin: 10px
+}
+div.patro{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+div.parcei{
+    width: 1060px;
+    height: 250px;
+    margin: 0 auto;
+}
+div.parcei h3{
+    font-size: 60px;
+    margin: 10px 0;
+}
+div.apoio{
+    display: flex;
+    justify-content: center;
+}
+div.parcei img{
+    width: 160px;
+    height: 120px;
+    margin: 30px;
+}
+section.social{
+    display:flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width:100%;
+    height: 200px;
+    background-color: yellow;
+}
+div.top{
+    margin-top: 0;
+}
+section.footer{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: black;
+width: 100%;
+height: 300px;
+}
+div.endereco{
+    color: white;
+    width: 500px;
+    margin-right: 20px;
+}
+div.mapa{
+    margin: 20px;
+}
+@media only screen and (max-width: 540px){
+html{
+ width:100vw;
+}
+header{
+    z-index: 2;
+    height: 10vh;
+}
+section.banner{
+    width:30vw;
+    height:30vh;
+}
+div.img img{
+width:10vw;
+heigth:10vh;
+}
+div.contato{
+    display: none;
+}
+#menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+#menu ul li:not(.toggle-menu){
+display: none;
+}
+section.foto{
+    width:100vw;
+    height:50vh;
+}
+div.text{
+    width: 30vw;
+    height: 30vh;
+}div.text p {
+    font-size: 14px;
+}
+div.text button{
+    width:3vw;
+    height: 6vh;
+}
+
+}
+
